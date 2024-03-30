@@ -1,0 +1,27 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+#navbar img {
+    height: 6rem;
+    mix-blend-mode: multiply;
+}
+
+#navItems ul {
+    display: flex;
+}
+
+#navItems ul li {
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+#nav-items ul li:hover{
+    transform: scale(1.05);
+    color: rgb(142, 35, 35)
+}
